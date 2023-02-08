@@ -1,2 +1,1 @@
-# Portfolio
-Personal Portfolio 
+#>> source portfolio-env/bin/activate
