@@ -67,7 +67,7 @@ with col2:
         key=None,
     )
 
-resume_link = "https://drive.google.com/file/d/1YthW-l6dMbe7YmnFPKhNIWiixroTNdaA/view?usp=sharing"
+resume_link = "https://drive.google.com/file/d/1uIqphhZLOZZkJRIAi6lUx1lNaoDLVnbp/view?usp=share_link"
 linkedin_link = "https://www.linkedin.com/in/krishnakanth-naik-jarapala-07618b119/"
 github_link = "https://github.com/jkkn31"
 
