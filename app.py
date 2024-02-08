@@ -9,14 +9,19 @@ import streamlit.components.v1 as components
 import subprocess
 import webbrowser
 
+
 # The code below is for the layout of the page
 st.set_page_config(  # Alternate names: setup_page, page, layout
     layout="wide",  # Can be "centered" or "wide". In the future also "dashboard", etc.
     initial_sidebar_state="auto",  # Can be "auto", "expanded", "collapsed"
     page_title='Krishnakanth Naik Jarapala',  # String or None. Strings get appended with "• Streamlit".
     page_icon=None,  # String, anything supported by st.image, or None.
+
+
 )
 load_css()
+
+
 
 def load_lottiefile(filepath: str):
     with open(filepath, "r") as f:
@@ -86,7 +91,7 @@ with q:
 
 with r:
     text2 = f"<p style='font-size: 20px; text-align: left'><span style='color: #15b090; font-weight:bold ;'>My GitHub</span></p>"
-    st.markdown(f"[{text2}]({linkedin_link})", unsafe_allow_html=True)
+    st.markdown(f"[{text2}]({github_link})", unsafe_allow_html=True)
 
 with s:
     text2 = f"<p style='font-size: 20px; text-align: left'><span style='color: #15b090; font-weight:bold ;'>My E-Mail</span></p>"
@@ -294,7 +299,7 @@ with col1:
 with col2:
     st.image("Utils/Images/s.png", use_column_width =True)
     st.markdown("<p style='font-size: 20px'>Passion for <span style='color: green;'>Machine Learning</span> & <span style='color: green;'>Data Science</span> projects along with <span style='color: green;'>Application Engineering Developement</span>.</p>", unsafe_allow_html=True)
-    st.markdown("<p style='font-size: 20px'>Aiming to explore new Challenging Work in the feild of <span style='color: green;'>Data Engineering</span> & <span style='color: green;'>Software Developement</span></p>", unsafe_allow_html=True)
+    st.markdown("<p style='font-size: 20px'>Aiming to explore new Challenging Work in the feild of <span style='color: green;'>NLP, Generactive AI, Cognitive Computing, Data Engineering</span> & <span style='color: green;'>Software Developement</span></p>", unsafe_allow_html=True)
     # st.subheader("Expertise")
     # st.markdown("<p style='font-size: 23px; text-align: left'><span style=' color:; font-weight: bold;'>Expertise</span></p>", unsafe_allow_html=True)
     # st.markdown("* <p style='font-size: 19px; text-align: left'>Experienced Data Professional with a passion for <span style='color: #15b090;'>Data Science</span> and <span style='color: #15b090;'>Data Engineering</span>. My expertise includes Data Modelling, Data Analysis, developing Robust Machine Learning Models, Deploying to Cloud, Managing CI/CD Pipelines, Implementing MLOps,  and Managing end-to-end ML Systems. My experience in deploying ML systems and creating incremental revenue showcases my ability to drive business impact with data-driven solutions. I am proficient in technologies such as C, C++, Java, Python, SQL, Spark, Azure, MLFlow,  PowerBI, and Tableau, among others. I am interested in exploring new challenges in the fields of Data Science and Data Engineering.</p>", unsafe_allow_html=True)
