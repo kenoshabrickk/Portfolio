@@ -181,7 +181,7 @@ with colb:
     # st.markdown("")
     # st.markdown("")
     # st.markdown("")
-    # st.markdown("")
+    st.markdown("")
     # st.markdown("")
     text2 = f"<p style='font-size: 19px; text-align: center'><span style=';'>Worked as <span style='color: #15b090; font-weight:bold ;'>Cognitive Computing Engineer Co-Op</span></span></p>"
     st.image("Utils/Images/Fid_Logo.jpg")
@@ -412,7 +412,7 @@ with colp1:
     st.markdown(f"<p style='font-size: 20px; text-align: left'><span style=' color:#15b090; font-weight:bold ;'>MLOPS Monitoring Dashboard</span> - System, Data & Model Monitoring</p>",unsafe_allow_html=True)
     # st.markdown("")
     # st.markdown("")
-    # st.markdown("")
+    st.markdown("")
 
     st.markdown(f"* <p style='font-size: 18px; text-align: left'>Implemented a state-of-the-art Monitoring Dashboard utilizing MLOps principles, crucial for overseeing <span style=' font-weight:bold ;'>Model Performance, System Health, and Data Quality</span> in real-time.</p>", unsafe_allow_html = True)
 
