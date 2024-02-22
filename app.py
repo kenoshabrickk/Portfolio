@@ -138,13 +138,66 @@ edf = edf.to_html(escape=False, index=False)
 st.markdown("""---""")
     # -------------------------------------------------- Work Experience ----------------------------------------------------------
 
-st.markdown("<h1 style='font-size: 30px; text-align: left'><span style=' font-weight:bold ;'>Experiences 👨‍💻</span></p>", unsafe_allow_html= True)
-st.markdown( "<p style='font-size: 17px'>Below Listed are my professional work experiences, including Full-Time positions and Internships.</p>",
+st.markdown("<h1 style='font-size: 30px; text-align: left'><span style=' font-weight:bold ;'>Professional Work Experiences 👨‍💻</span></p>", unsafe_allow_html= True)
+st.markdown( "<p style='font-size: 17px'>Below Listed are my professional work experiences, including Full-Time positions and Internships (Co-Op).</p>",
     unsafe_allow_html=True)
 
 # st.markdown("")
 st.markdown("")
-st.markdown("<p style='font-size: 25px; text-align: left'><span style=' color:; font-weight:bold ;'>Full-Time Work Experience</span></p>",unsafe_allow_html=True)
+# st.markdown("<p style='font-size: 25px; text-align: left'><span style=' color:; font-weight:bold ;'>Professional Work Experience</span></p>",unsafe_allow_html=True)
+
+# Fidelity Work Container
+cola, colb = st.columns([2, 1.25])
+
+with st.expander("For More Details about my work @Fidelity Investments"):
+    st.markdown(
+        "<p style='font-size: 17px'>During my tenure as a <span style=' color: #15b090; font-weight:bold ;'>Cognitive Computing Engineer Co-Op</span>I spearheaded the development of a cutting-edge Semantic Search AutoSuggest Model aimed at revolutionizing customer interaction through intelligent bot responses.</p>",
+        unsafe_allow_html=True)
+    st.markdown(
+        "* <p style='font-size: 17px'><span style=' font-weight:bold ;'>Development of State-of-the-Art Semantic Search AutoSuggest Model:</span> Leveraging advanced Transformer architectures, I designed and implemented a sophisticated Semantic Search AutoSuggest Model. This model surpassed conventional Lexical Search methods by suggesting highly relevant questions based on partial user utterances. By harnessing the power of Transformers, I ensured that the suggestions provided were contextually accurate and tailored to the user's specific domain.</p>",
+        unsafe_allow_html=True)
+    st.markdown(
+        "* <p style='font-size: 17px'><span style=' font-weight:bold ;'>Fine-Tuning and Personalization:</span> I meticulously fine-tuned pre-trained transformer models, customizing them for domain-specific relevance. This personalization ensured that the suggestions provided by the model were precisely aligned with the user's needs and preferences. As a result, customer engagement was significantly enhanced, leading to a more enriching user experience.</p>",
+        unsafe_allow_html=True)
+    st.markdown(
+        "* <p style='font-size: 17px'><span style=' font-weight:bold ;'>Optimization and Performance Enhancement:</span> Employing advanced Transformer models and re-ranking techniques, coupled with historical sentence click data, I optimized the large corpus by an impressive 90%. This optimization not only enhanced the overall performance of the model but also resulted in quicker response times, thereby improving user satisfaction and facilitating rapid business insights.</p>",
+        unsafe_allow_html=True)
+    st.markdown(
+        "* <p style='font-size: 17px'><span style=' font-weight:bold ;'>Conversion to Edge Autosuggest Model:</span> To further enhance usability and privacy, I converted the fine-tuned transformer model into an Edge Autosuggest model for iOS & Android platforms. This involved leveraging CoreML tools and the Hugging Face Optimum library to enable on-device inference. By bringing the power of the model directly to users' devices, I not only improved privacy but also enhanced model response times and usability, even in offline scenarios.</p>",
+        unsafe_allow_html=True)
+    st.markdown(
+        "<p style='font-size: 17px'>Through these endeavors, I made significant contributions to advancing the state of cognitive computing, ultimately enhancing customer interaction, improving business efficiency, and paving the way for future innovations in the field.</p>",
+        unsafe_allow_html=True)
+    st.markdown(
+        "<p style='font-size: 17px'><span style=' font-weight:bold ;'>Technologies Utilized:</span> Python, Tensorflow, Pytorch, Transformers, CoreML, Hugging Face Optimum library, iOS & Android platforms, Ranking techniques, Github, Snowflake, AWS, Jenkins, Docker, Streamlit.</p>",
+        unsafe_allow_html=True)
+
+
+st.markdown("""---""")
+st.markdown("")
+with colb:
+    st.markdown("")
+    st.markdown("")
+    st.markdown("")
+    st.markdown("")
+    st.markdown("")
+    # st.markdown("")
+    text2 = f"<p style='font-size: 19px; text-align: center'><span style=';'>Worked as <span style='color: #15b090; font-weight:bold ;'>Cognitive Computing Engineer Co-Op</span></span></p>"
+    st.image("Utils/Images/Fid_Logo.jpg")
+    st.markdown("")
+    st.markdown(f"{text2}", unsafe_allow_html=True)
+    st.markdown("<p style='font-size: 18px; text-align: center'><span style=';'>Fidelity Investments</span></p>", unsafe_allow_html=True)
+    st.markdown("<p style='font-size: 18px; text-align: center'><span style=';'>May' 2019- July' 2020</span></p>", unsafe_allow_html=True)
+
+with cola:
+    st.markdown(f"* <p style='font-size: 18px; text-align: left'>Developed a state-of-the-art <span style=' font-weight:bold ;'>Semantic Search AutoSuggest Model</span> for bots using Transformers to enhance customer interaction <span style=' font-weight:bold ;'>by suggesting highly relevant questions based on partial utterances</span>, surpassing Lexical Search methods.</p>", unsafe_allow_html = True)
+    # st.markdown(f"* [<span style='color: #15b090;'><p style='font-size: 18px; text-align: left'><span style=' font-weight:bold ;'>Lead Classification Engine </span>was Recognized with prestigious <span style='color: #15b090; font-weight:bold ;'>Data Science Excellence</span> award by <span style=' font-weight:bold ;'>Analytics India Magazine 2022</span></p></span>](https://rb.gy/znyv8q)", unsafe_allow_html = True)
+    st.markdown("* <p style='font-size: 18px; text-align: left'><span style=' font-weight:bold ;'>Fine-Tuned Pre-Trained Transformer Models</span> and personalized them for domain-specific relevance, ensuring tailored suggestions, thereby improved customer engagement and facilitated rapid business insights.</p>", unsafe_allow_html = True)
+    st.markdown("* <p style='font-size: 18px; text-align: left'> Applied advanced Transformer models and re-ranking techniques along with historical sentence click data and <span style=' font-weight:bold ;'>optimized the large corpus by 90%</span>, achieving enhanced model performance, quicker response times while retaining the same performance.</p>", unsafe_allow_html = True)
+    st.markdown("* <p style='font-size: 18px; text-align: left'>  Converted the fine-tuned transformer model into the <span style=' font-weight:bold ;'>Edge Autosuggest model for iOS & Android platforms</span> using CoreML tools and the Hugging Face Optimum library, enabling <span style=' font-weight:bold ;'>on-device inference, improving privacy, model response, and usability even without an internet connection</span>.</p>", unsafe_allow_html = True)
+
+
+
 
 # TVSM Work Container
 colx, coly = st.columns([1.5,2])
@@ -169,8 +222,9 @@ with st.expander("For More Details about my work @TVS Motors"):
 st.markdown("""---""")
 st.markdown("")
 
-st.markdown("<p style='font-size: 25px; text-align: left'><span style=' color:; font-weight:bold ;'>Intership Work Experience</span></p>",unsafe_allow_html=True)
+# st.markdown("<p style='font-size: 25px; text-align: left'><span style=' color:; font-weight:bold ;'>Intership Work Experience</span></p>",unsafe_allow_html=True)
 st.markdown("")
+
 # Intern Work Container
 colxx, colyy = st.columns([2,1.5])
 
@@ -195,12 +249,14 @@ with coly:
     st.markdown("* <p style='font-size: 18px; text-align: left'>Analyzed and Classified potential customers into priority buckets based on likelihood to retail, resulting in an <span style=' font-weight:bold ;'>Increase of Follow-up rate by 70% and overall Retails by 8%</span>.</p>", unsafe_allow_html = True)
     st.markdown("* <p style='font-size: 18px; text-align: left'>Developed an end-to-end Machine Learning System by leveraging <span style=' font-weight:bold ;'>Python, Pyspark, SQL, Azure Databricks, Azure Data Factory, MLOps, MLFlow, and Evidently</span>. MLFlow is used for tracking model experiments, registering models, serving models, and storing metadata, whereas Evidently is used for drift detection.</p>", unsafe_allow_html = True)
 
+
+
 # Intern Work Container Data Input
 with colxx:
-    st.markdown("* <p style='font-size: 18px; text-align: left'>Analyzed <span style=' font-weight:bold ;'>DAIMLER</span> Assembly plant Data by applying <span style=' font-weight:bold ;'>Data Wrangling Techniques</span> to uncover valuable insights which involves <span style=' font-weight:bold ;'>Data Cleaning, Transforming, and Interpreting the Data</span> to Identify areas for Improvement, such as <span style=' font-weight:bold ;'>Bottleneck Stations, Departments, Lines, Shops, Defects, and New Variants</span> that impacted Plant Efficiency.</p>",unsafe_allow_html=True)
-    st.markdown(f"* <p style='font-size: 18px; text-align: left'>Applied <span style=' font-weight:bold ;'>Statistical Techniques</span> including <span style=' font-weight:bold ;'>Data Mining, Regression and Cluster Analysis</span> to Identify patterns and relationships between <span style=' font-weight:bold ;'>Lead Time and Line Stop</span>, provided valuable insights to Management and helped to reduce Line-Stops, resulted in <span style=' font-weight:bold ;'>Increase of Vehicle Assembly</span>.</p>", unsafe_allow_html = True)
+    st.markdown("* <p style='font-size: 18px; text-align: left'>Analyzed <span style=' font-weight:bold ;'>DAIMLER</span> Assembly plant Data by applying <span style=' font-weight:bold ;'>Data Wrangling Techniques</span> to uncover valuable insights which involves Data Cleaning, Transforming, and Interpreting the Data to Identify areas for Improvement, such as <span style=' font-weight:bold ;'>Bottleneck Stations, Departments, Lines, Shops, Defects, and New Variants</span> that impacted Plant Efficiency.</p>",unsafe_allow_html=True)
+    st.markdown(f"* <p style='font-size: 18px; text-align: left'>Applied <span style=' font-weight:bold ;'>Statistical Techniques</span> including Data Mining, Regression and Cluster Analysis to Identify patterns and relationships between <span style=' font-weight:bold ;'>Lead Time and Line Stop</span>, provided valuable insights to Management and helped to reduce Line-Stops, resulted in <span style=' font-weight:bold ;'>Increase of Vehicle Assembly</span>.</p>", unsafe_allow_html = True)
     # st.markdown("* <p style='font-size: 18px; text-align: left'>Analyzed and Classified potential customers into priority buckets based on likelihood to retail, resulting in an <span style=' font-weight:bold ;'>Increase of Follow-up rate by 70% and overall Retails by 8%</span>.</p>", unsafe_allow_html = True)
-    st.markdown("* <p style='font-size: 18px; text-align: left'>My Internship provided me with a comprehensive understanding of the industry and fueled my passion for research, while this project gave me hands-on experience in the field.</p>", unsafe_allow_html = True)
+    st.markdown("* <p style='font-size: 18px; text-align: left'>This work provided me with a comprehensive understanding of the industry and fueled my passion in the field of Data, while this project gave me hands-on experience in the field.</p>", unsafe_allow_html = True)
 
 with colyy:
     st.markdown("")
@@ -214,7 +270,7 @@ with colyy:
         "<p style='font-size: 18px; text-align: center'><span style=';'>MESTech Services Pvt. Ltd.</span></p>",
         unsafe_allow_html=True)
     st.markdown(
-        "<p style='font-size: 18px; text-align: center'><span style=';'>Aug' 2020- Aug' 2022</span></p>",
+        "<p style='font-size: 18px; text-align: center'><span style=';'>May' 2019- July' 2020</span></p>",
         unsafe_allow_html=True)
 st.markdown("""---""")
 
@@ -346,26 +402,37 @@ with pro_col1_2:
 st.markdown("---")
 # ------------------------------------------------------------- Current Developments
 
-st.markdown("<p style='font-size: 25px; text-align: left'><span style=' color:; font-weight:bold ;'><span style=' color:red; font-weight:bold ;'>Open Source</span> - Tool Developments [WIP]</span></p>",unsafe_allow_html=True)
+# st.markdown("<p style='font-size: 25px; text-align: left'><span style=' color:; font-weight:bold ;'><span style=' color:red; font-weight:bold ;'>Open Source</span> - Tool Developments [WIP]</span></p>",unsafe_allow_html=True)
 
-col1, col2 = st.columns([1.5, 1])
+colp1, colp2 = st.columns([1.5, 1])
 
-with col1:
-    st.markdown("")
+
+# with st.d
+
+with colp1:
     st.markdown(f"<p style='font-size: 20px; text-align: left'><span style=' color:#15b090; font-weight:bold ;'>MLOPS Monitoring Dashboard</span> - System, Data & Model Monitoring</p>",unsafe_allow_html=True)
-    st.markdown("")
-    st.markdown(f"* <p style='font-size: 18px; text-align: left'>Unleashing the power of MLOps, revolutionizing the way Models are Monitored with my state-of-the-art Monitoring Dashboard.</p>", unsafe_allow_html = True)
-    st.markdown(f"* <p style='font-size: 18px; text-align: left'>Bridging the gap in <span style=' color:#15b090; font-weight:bold ;'>Open-Source Monitoring Frameworks</span>, this dashboard tracks <span style=' color:; font-weight:bold ;'>Model Performance, System Health, and Data Quality</span> with unparalleled precision.</p>", unsafe_allow_html = True)
-    st.markdown(f"* <p style='font-size: 18px; text-align: left'>A dynamic <span style=' color:#15b090; font-weight:bold ;'>Alerting Mechanism</span> ensures a seamless experience by instantly <span style=' color:; font-weight:bold ;'>Alerting Users</span> of any anomalies, such as <span style=' color:#15b090; font-weight:bold ;'>Model Drift or Data Drift</span>, keeping the system running smoothly.</p>", unsafe_allow_html = True)
-    st.markdown(f"* <p style='font-size: 18px; text-align: left'>With the ability to <span style=' color:#15b090; font-weight:bold ;'>Monitor Multiple Productionized Models</span>, my <span style=' color:; font-weight:bold ;'>Monitoring Dashboard</span> is your one-stop solution for <span style=' color:; font-weight:bold ;'>Seamless Model Performance and System Health Tracking</span>.</p>", unsafe_allow_html = True)
-    # st.markdown(f"<p style='font-size: 20px; text-align: left'></p>", unsafe_allow_html = True)
-    # st.markdown(f"<p style='font-size: 20px; text-align: left'></p>", unsafe_allow_html = True)
-    # st.markdown(f"<p style='font-size: 20px; text-align: left'></p>", unsafe_allow_html = True)
+    # st.markdown("")
+    # st.markdown("")
+    # st.markdown("")
+
+    st.markdown(f"* <p style='font-size: 18px; text-align: left'>Implemented a state-of-the-art Monitoring Dashboard utilizing MLOps principles, crucial for overseeing <span style=' font-weight:bold ;'>Model Performance, System Health, and Data Quality</span> in real-time.</p>", unsafe_allow_html = True)
+
+    st.markdown(f"* <p style='font-size: 18px; text-align: left'>Incorporated an Alerting Mechanism within the dashboard to promptly detect anomalies like <span style=' font-weight:bold ;'>Model Drift, Data Drift, Target Drift</span>, ensuring proactive maintenance and system stability.</p>", unsafe_allow_html = True)
+
+    # st.markdown(f"* <p style='font-size: 18px; text-align: left'>Empowered the dashboard to monitor the performance and health of multiple productionized models concurrently, providing comprehensive insights for informed decision-making.</p>", unsafe_allow_html = True)
+    st.markdown(f"* <p style='font-size: 18px; text-align: left'>Contributed to establishing a robust MLOps framework, essential for maintaining the integrity and reliability of deployed models, thereby optimizing operational efficiency and ensuring continuous improvement.</p>", unsafe_allow_html = True)
+
+    # st.markdown(f"* <p style='font-size: 18px; text-align: left'>Bridging the gap in <span style=' color:#15b090; font-weight:bold ;'>Open-Source Monitoring Frameworks</span>, this dashboard tracks <span style=' color:; font-weight:bold ;'>Model Performance, System Health, and Data Quality</span> with unparalleled precision.</p>", unsafe_allow_html = True)
+    # st.markdown(f"* <p style='font-size: 18px; text-align: left'>A dynamic <span style=' color:#15b090; font-weight:bold ;'>Alerting Mechanism</span> ensures a seamless experience by instantly <span style=' color:; font-weight:bold ;'>Alerting Users</span> of any anomalies, such as <span style=' color:#15b090; font-weight:bold ;'>Model Drift or Data Drift</span>, keeping the system running smoothly.</p>", unsafe_allow_html = True)
+    st.markdown(f"* <p style='font-size: 18px; text-align: left'>With the ability to <span style=' color:#15b090; font-weight:bold ;'>Monitor Multiple Productionized Models</span>, <span style=' color:; font-weight:bold ;'>Monitoring Dashboard</span> is your one-stop solution for <span style=' color:; font-weight:bold ;'>Seamless Model Performance and System Health Tracking</span>.</p>", unsafe_allow_html = True)
+
 
 # With the ability to monitor multiple productionized models, our Monitoring Dashboard is your one-stop solution for seamless model performance and system health tracking. [https://rb.gy/jmva1r]"
 
 
-with col2:
+with colp2:
+    st.markdown("")
+    st.markdown("")
     lottie_blog = load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_XWnyRzwZRB.json")
     st_lottie(
         lottie_blog,
