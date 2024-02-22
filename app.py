@@ -53,14 +53,15 @@ with col1:
     st.markdown("<h1 style='font-size: 60px; text-align: left'>Hello, I'm <span style='color: #15b090; font-weight:bold ;'>Krishnakanth</span></h1>", unsafe_allow_html=True)
     # st.markdown("")
     st.markdown("* <p style='font-size: 17px; text-align: left'>Driven to continuously take on new <span style='font-weight: ;'>Challenges and Improve my Skills</span>.</p>", unsafe_allow_html=True)
-    st.markdown("* <p style='font-size: 17px; text-align: left'>Prestigious <span style='color:  ; font-weight:bold ;'>Data Science Excellence Award</span> for my outstanding work as a <span style='font-weight: bold;'>Data Scientist</span> by <span style='font-weight: bold ;'>Analytics India Magazine 2022</span>.</p>", unsafe_allow_html=True)
+    st.markdown("* <p style='font-size: 17px; text-align: left'>Prestigious <span style=' color:red; font-weight:bold ;'>Data Science Excellence Award</span> for my outstanding work as a <span style='font-weight: bold;'>Data Scientist</span> by <span style=' color:red; font-weight:bold ;'>Analytics India Magazine 2022</span>.</p>", unsafe_allow_html=True)
     st.markdown("* <p style='font-size: 17px; text-align: left'><span style='color: ; font-weight:bold ;'>Certified Data Engineer</span>, demonstrating a thorough understanding and its best practices.</p>", unsafe_allow_html=True)
-    st.markdown("* <p style='font-size: 17px; text-align: left'>Possesses exceptional <span style='font-weight:bold ;'>Cross-Domain Knowledge</span>, spanning <span style='color: ; font-weight: bold;'>Data Analysis, Business Intelligence, Machine Learning, Data Engineering, and Software Development</span></p>", unsafe_allow_html=True)
+    st.markdown("* <p style='font-size: 17px; text-align: left'>Possesses exceptional <span style='font-weight:bold ;'>Cross-Domain Knowledge</span>, spanning <span style='color: ; font-weight: bold;'>Machine Learning, Deep Learning, NLP, Generative AI, Data Engineering, and Software Development</span></p>", unsafe_allow_html=True)
     # st.markdown("<p style='font-size: 19px; text-align: left'></p>", unsafe_allow_html=True)
 
 
 
 with col2:
+    st.markdown("")
     lottie_hello = load_lottieurl("https://assets9.lottiefiles.com/packages/lf20_qwl4gi2d.json")
     st_lottie(
         lottie_hello,
@@ -177,10 +178,10 @@ st.markdown("""---""")
 st.markdown("")
 with colb:
     st.markdown("")
-    st.markdown("")
-    st.markdown("")
-    st.markdown("")
-    st.markdown("")
+    # st.markdown("")
+    # st.markdown("")
+    # st.markdown("")
+    # st.markdown("")
     # st.markdown("")
     text2 = f"<p style='font-size: 19px; text-align: center'><span style=';'>Worked as <span style='color: #15b090; font-weight:bold ;'>Cognitive Computing Engineer Co-Op</span></span></p>"
     st.image("Utils/Images/Fid_Logo.jpg")
@@ -231,10 +232,10 @@ colxx, colyy = st.columns([2,1.5])
 # TVSM Container Data input
 with colx:
     st.markdown("")
-    st.markdown("")
-    st.markdown("")
-    st.markdown("")
-    st.markdown("")
+    # st.markdown("")
+    # st.markdown("")
+    # st.markdown("")
+    # st.markdown("")
     st.markdown("")
     text2 = f"<p style='font-size: 19px; text-align: center'><span style=';'>Worked as <span style='color: #15b090; font-weight:bold ;'>Data Scientist</span></span></p>"
     st.image("Utils/Images/tvsm1.png")
@@ -259,8 +260,8 @@ with colxx:
     st.markdown("* <p style='font-size: 18px; text-align: left'>This work provided me with a comprehensive understanding of the industry and fueled my passion in the field of Data, while this project gave me hands-on experience in the field.</p>", unsafe_allow_html = True)
 
 with colyy:
-    st.markdown("")
-    st.markdown("")
+    # st.markdown("")
+    # st.markdown("")
     st.markdown("")
     text2 = f"<p style='font-size: 19px; text-align: center'><span style=''>Worked as <span style='color: #15b090; font-weight:bold ;'>Data Analyst</span></span></p>"
     st.image("Utils/Images/mestech700.jpg")
@@ -341,7 +342,7 @@ st.markdown("<p style='font-size: 25px; text-align: left'><span style=' color:; 
 col1, col2 = st.columns([1, 1])
 with col1:
     # st.markdown("")
-    # st.markdown("")
+    st.markdown("")
     lottie_pro = load_lottieurl("https://assets6.lottiefiles.com/packages/lf20_tno6cg2w.json") #project Image from lottie website
     st_lottie(
         lottie_pro,
@@ -354,7 +355,7 @@ with col1:
     )
 with col2:
     st.image("Utils/Images/s.png", use_column_width =True)
-    st.markdown("<p style='font-size: 20px'>Passion for <span style='color: green;'>Machine Learning</span> & <span style='color: green;'>Data Science</span> projects along with <span style='color: green;'>Application Engineering Developement</span>.</p>", unsafe_allow_html=True)
+    st.markdown("<p style='font-size: 20px'>Passion for <span style='color: green;'>Machine Learning, Deep Learning, NLP</span> & <span style='color: green;'>Generative AI</span> projects along with <span style='color: green;'>Application Engineering Developement</span>.</p>", unsafe_allow_html=True)
     st.markdown("<p style='font-size: 20px'>Aiming to explore new Challenging Work in the feild of <span style='color: green;'>NLP, Generactive AI, Cognitive Computing, Data Engineering</span> & <span style='color: green;'>Software Developement</span></p>", unsafe_allow_html=True)
     # st.subheader("Expertise")
     # st.markdown("<p style='font-size: 23px; text-align: left'><span style=' color:; font-weight: bold;'>Expertise</span></p>", unsafe_allow_html=True)
@@ -402,8 +403,6 @@ with pro_col1_2:
 st.markdown("---")
 # ------------------------------------------------------------- Current Developments
 
-# st.markdown("<p style='font-size: 25px; text-align: left'><span style=' color:; font-weight:bold ;'><span style=' color:red; font-weight:bold ;'>Open Source</span> - Tool Developments [WIP]</span></p>",unsafe_allow_html=True)
-
 colp1, colp2 = st.columns([1.5, 1])
 
 
@@ -427,12 +426,10 @@ with colp1:
     st.markdown(f"* <p style='font-size: 18px; text-align: left'>With the ability to <span style=' color:#15b090; font-weight:bold ;'>Monitor Multiple Productionized Models</span>, <span style=' color:; font-weight:bold ;'>Monitoring Dashboard</span> is your one-stop solution for <span style=' color:; font-weight:bold ;'>Seamless Model Performance and System Health Tracking</span>.</p>", unsafe_allow_html = True)
 
 
-# With the ability to monitor multiple productionized models, our Monitoring Dashboard is your one-stop solution for seamless model performance and system health tracking. [https://rb.gy/jmva1r]"
-
 
 with colp2:
-    st.markdown("")
-    st.markdown("")
+    # st.markdown("")
+    # st.markdown("")
     lottie_blog = load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_XWnyRzwZRB.json")
     st_lottie(
         lottie_blog,
@@ -444,86 +441,6 @@ with colp2:
         key=None,
     )
 
-# ------------------------------------------------------------- Project work Container
-
-#
-# line_col, dummy = st.columns([0.9, 0.001])
-# with line_col:
-#     st.write("----------------------------------------------------------------")
-# pro_col2_1, pro_col2_2, pro_col2_3 = st.columns([1, 1, 1])
-# with pro_col2_1:
-#     st.markdown("")
-#     st.markdown("")
-#     st.subheader("**Machine Predictive Maintenance** 🏭")
-#     st.markdown("")
-#     st.markdown("")
-#     st.markdown("Category : **<span style='color: orange;'>Machine learning</span>**", unsafe_allow_html=True)
-#     st.markdown(
-#         "A Machine Learning model with 98% accuracy in identifying potential machine failures in an industry")
-#     st.markdown("")
-#     st.markdown("")
-#     st.markdown("")
-#     st.markdown("")
-#     # res_button = st.button("**Colab 📔**")
-#     mpm_colab_rul = "https://colab.research.google.com/drive/1qX2yBbnwrMkc7Ag0dmAnYmJ_UBkK7ca7?usp=sharing"
-#     # if res_button:
-#     #     open_link(mpm_colab_rul)
-#     st_button('', f'{mpm_colab_rul}',
-#               'Colab 📔', 17)
-# with pro_col2_2:
-#     st.markdown("")
-#     st.markdown("")
-#     st.subheader("**Statistical Analysis Command Line Tool** 📈")
-#     st.markdown("Category : **<span style='color: orange;'>Scala Application Development</span>**",
-#                 unsafe_allow_html=True)
-#     st.markdown(
-#         "An Interactive command line tool implemented in Scala using SMILE(Statistical Machine Intelligence and Learning Engine) for conducting Statistical analysis on numerical data.")
-#     scala_url = "https://github.com/bhargavi31/CommandLineTool/tree/master/CommandLineTool"
-#     st.markdown("")
-#     st.markdown("")
-#
-#     # git_button = st.button("**Github 📊**")
-#     # if git_button:
-#     #     open_link(scala_url)
-#     st_button('', f'{scala_url}',
-#               'Github 📊', 17)
-#
-# with pro_col2_3:
-#     st.markdown("")
-#     st.markdown("")
-#     st.subheader("**UI to display processed images** 🔍")
-#     st.markdown("")
-#     st.markdown("")
-#     st.markdown("Category : **<span style='color: orange;'>Python Application Development</span>**",
-#                 unsafe_allow_html=True)
-#     st.markdown(
-#         "An UI in python using PyQt library to execute image processing operations and displays processed histograms and translated images in widgets to help Computer Vision Engineers analyze model outputs")
-#     ui_url = "https://github.com/bhargavi31/UI_designer"
-#     st.markdown("")
-#     # git_button = st.button("**Github**")
-#     # if git_button:
-#     #     open_link(ui_url)
-#     st_button('', f'{ui_url}',
-#               'Github', 17)
-# pro_col3_1, pro_col3_2, pro_col3_3 = st.columns([1, 1, 1])
-# with pro_col3_1:
-#     st.markdown("")
-#     st.markdown("")
-#     st.subheader("**Medical Resource Management 🏥**")
-#     st.markdown("")
-#     st.markdown("")
-#     st.markdown("Category : **<span style='color: orange;'>Python Application Development</span>**",
-#                 unsafe_allow_html=True)
-#     st.markdown(
-#         "An UI in python using PyQt library to execute image processing operations and displays processed histograms and translated images in widgets to help Computer Vision Engineers analyze model outputs")
-#     ui_url = "https://github.com/bhargavi31/UI_designer"
-#     st.markdown("")
-#     # git_button = st.button("**Github ⚕️**")
-#     # if git_button:
-#     #     open_link(ui_url)
-#     st_button('', f'{ui_url}',
-#               'Github ⚕', 17)
-
 # with Blog:
 
 st.markdown("---")
@@ -532,11 +449,11 @@ st.markdown("<p style='font-size: 25px; text-align: left'><span style=' color:; 
 
 col1, col2 = st.columns([1.5, 2])
 with col2:
-    # st.markdown("")
-    # st.markdown("")
-    # st.markdown("")
     st.markdown("")
     st.markdown("")
+    # st.markdown("")
+    st.markdown("")
+    # st.markdown("")
     st.markdown("[**Monitoring ML systems using MLOps - Medium**  🔗](https://medium.com/@bhargavi.sikhakolli31/monitoring-ml-systems-using-mlops-an-overview-e1d6eea64ae2)")
     res_url = "https://medium.com/@bhargavi.sikhakolli31/monitoring-ml-systems-using-mlops-an-overview-e1d6eea64ae2"
 
@@ -549,7 +466,7 @@ with col2:
     #     open_link(res_url)
 
 with col1:
-    st.markdown("")
+    # st.markdown("")
     # st.markdown("")
     lottie_blog = load_lottieurl("https://assets7.lottiefiles.com/packages/lf20_9WVhKlBG2r.json")
     st_lottie(
@@ -565,58 +482,24 @@ with col1:
 st.markdown("---")
 # -------------------------------------------------------------
 
-# col2_1, col2_2 = st.columns([1, 2])
-# with col2_1:
-#     st.markdown("")
-#     st.markdown("")
-#     st.subheader("Knowledge Share")
-#     st.markdown("")
-#     st.markdown(
-#         "[**Feature scaling in data preprocessing**  🔗](https://drive.google.com/file/d/1e49rttp_EYnMnbaXSkc4TBVGPTYwpafo/view?usp=sharing)")
-#     res_url = "https://drive.google.com/file/d/1e49rttp_EYnMnbaXSkc4TBVGPTYwpafo/view?usp=sharing"
-#     res_button = st.button("""**🟡 Feature scaling techniques  🟡 Data Science**  🔗"""
-#                            " Here is a presentation by me explaining feature scaling techniques to perform during Exploratory Data Analysis.")
-#     if res_button:
-#         open_link(res_url)
-#
-# # with about:
-# st.markdown("")
-# st.markdown("")
-# -------------------------------------------------------------
-
-
-# col1_1, col1_2 = st.columns([1, 2])
-# with col1_1:
-#     st.header("Contact Information")
-#     # st.image("Utils/Images/linkedin.png",width= 20)
-# col2_1, col2_2 = st.columns([1, 50])
-# with col2_1:
-#     st.image("Utils/Images/linkedin.png", width=20)
-# with col2_2:
-#     st.markdown("[LinkedIn](https://www.linkedin.com/in/bhargavi-sikhakolli-9ab281117/)")
-
-
-# -----------------------------------------------------------------------
-
-
 st.markdown("")
 text = "<p style='font-size: 20px; text-align: left'>To get in touch with me, kindly reach me through:</p>"
 st.markdown(text, unsafe_allow_html = True)
 q, r, s = st.columns([1.5,1.5,8])
 
 with q:
-    text2 = f"<p style='font-size: 20px; text-align: left'><span style='color: #15b090; font-weight:bold ;'>My LinkedIn</span></p>"
+    text2 = f"<p style='font-size: 40px; text-align: left'><span style='color: #15b090; font-weight:bold ;'>My LinkedIn</span></p>"
     # st.markdown(f"[{text2}]({linkedin_link})", unsafe_allow_html = True)
     st.markdown(f"[**LinkedIn**]({linkedin_link})")
 
 with r:
-    text2 = f"<p style='font-size: 20px; text-align: left'><span style='color: #15b090; font-weight:bold ;'>My GitHub</span></p>"
+    text2 = f"<p style='font-size: 40px; text-align: left'><span style='color: #15b090; font-weight:bold ;'>My GitHub</span></p>"
     # st.markdown(f"[{text2}]({linkedin_link})", unsafe_allow_html=True)
     st.markdown(f"[**Facebook**](https://www.facebook.com/K2Naik/)")
 
 
 with s:
-    text2 = f"<p style='font-size: 20px; text-align: left'><span style='color: blue ; font-weight:bold ;'>My E-Mail</span></p>"
+    text2 = f"<p style='font-size: 40px; text-align: left'><span style='color: blue ; font-weight:bold ;'>My E-Mail</span></p>"
     # st.markdown(f"[{text2}](mailto:jarapala.k@northeastern.edu)", unsafe_allow_html=True)
     st.markdown(f"[**E-Mail**](mailto:jarapala.k@northeastern.edu)")
 
