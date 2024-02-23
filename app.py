@@ -53,7 +53,7 @@ with col1:
     st.markdown("<h1 style='font-size: 60px; text-align: left'>Hello, I'm <span style='color: #15b090; font-weight:bold ;'>Krishnakanth</span></h1>", unsafe_allow_html=True)
     # st.markdown("")
     st.markdown("* <p style='font-size: 17px; text-align: left'>Driven to continuously take on new <span style='font-weight: ;'>Challenges and Improve my Skills</span>.</p>", unsafe_allow_html=True)
-    st.markdown("* <p style='font-size: 17px; text-align: left'>Prestigious <span style=' color:red; font-weight:bold ;'>Data Science Excellence Award</span> for my outstanding work as a <span style='font-weight: bold;'>Data Scientist</span> by <span style=' color:red; font-weight:bold ;'>Analytics India Magazine 2022</span>.</p>", unsafe_allow_html=True)
+    st.markdown("* <p style='font-size: 17px; text-align: left'>Prestigious <span style=' color:red; font-weight:bold ;'>Data Science Excellence Award</span> for my outstanding work as a <span style='font-weight: bold;'>Data Scientist</span> by <span style=' color:red; font-weight:bold ;'>Analytics India Magazine 2023</span>.</p>", unsafe_allow_html=True)
     st.markdown("* <p style='font-size: 17px; text-align: left'><span style='color: ; font-weight:bold ;'>Certified Data Engineer</span>, demonstrating a thorough understanding and its best practices.</p>", unsafe_allow_html=True)
     st.markdown("* <p style='font-size: 17px; text-align: left'>Possesses exceptional <span style='font-weight:bold ;'>Cross-Domain Knowledge</span>, spanning <span style='color: ; font-weight: bold;'>Machine Learning, Deep Learning, NLP, Generative AI, Data Engineering, and Software Development</span></p>", unsafe_allow_html=True)
     # st.markdown("<p style='font-size: 19px; text-align: left'></p>", unsafe_allow_html=True)
@@ -73,7 +73,7 @@ with col2:
         key=None,
     )
 
-resume_link = "https://drive.google.com/file/d/1uIqphhZLOZZkJRIAi6lUx1lNaoDLVnbp/view?usp=share_link"
+resume_link = "https://drive.google.com/file/d/1zi8ySrhmD7HjbLpPJh-OeQEd4p6P0ijj/view?usp=sharing"
 linkedin_link = "https://www.linkedin.com/in/krishnakanth-naik-jarapala-07618b119/"
 github_link = "https://github.com/jkkn31"
 
@@ -152,7 +152,7 @@ cola, colb = st.columns([2, 1.25])
 
 with st.expander("For More Details about my work @Fidelity Investments"):
     st.markdown(
-        "<p style='font-size: 17px'>During my tenure as a <span style=' color: #15b090; font-weight:bold ;'>Cognitive Computing Engineer Co-Op</span>I spearheaded the development of a cutting-edge Semantic Search AutoSuggest Model aimed at revolutionizing customer interaction through intelligent bot responses.</p>",
+        "<p style='font-size: 17px'>During my tenure as a <span style=' color: #15b090; font-weight:bold ;'>Cognitive Computing Engineer Co-Op</span>, I spearheaded the development of a cutting-edge Semantic Search AutoSuggest Model aimed at revolutionizing customer interaction through intelligent bot responses.</p>",
         unsafe_allow_html=True)
     st.markdown(
         "* <p style='font-size: 17px'><span style=' font-weight:bold ;'>Development of State-of-the-Art Semantic Search AutoSuggest Model:</span> Leveraging advanced Transformer architectures, I designed and implemented a sophisticated Semantic Search AutoSuggest Model. This model surpassed conventional Lexical Search methods by suggesting highly relevant questions based on partial user utterances. By harnessing the power of Transformers, I ensured that the suggestions provided were contextually accurate and tailored to the user's specific domain.</p>",
@@ -188,11 +188,11 @@ with colb:
     st.markdown("")
     st.markdown(f"{text2}", unsafe_allow_html=True)
     st.markdown("<p style='font-size: 18px; text-align: center'><span style=';'>Fidelity Investments</span></p>", unsafe_allow_html=True)
-    st.markdown("<p style='font-size: 18px; text-align: center'><span style=';'>May' 2019- July' 2020</span></p>", unsafe_allow_html=True)
+    st.markdown("<p style='font-size: 18px; text-align: center'><span style=';'>July' 2023- Dec' 2023</span></p>", unsafe_allow_html=True)
 
 with cola:
     st.markdown(f"* <p style='font-size: 18px; text-align: left'>Developed a state-of-the-art <span style=' font-weight:bold ;'>Semantic Search AutoSuggest Model</span> for bots using Transformers to enhance customer interaction <span style=' font-weight:bold ;'>by suggesting highly relevant questions based on partial utterances</span>, surpassing Lexical Search methods.</p>", unsafe_allow_html = True)
-    # st.markdown(f"* [<span style='color: #15b090;'><p style='font-size: 18px; text-align: left'><span style=' font-weight:bold ;'>Lead Classification Engine </span>was Recognized with prestigious <span style='color: #15b090; font-weight:bold ;'>Data Science Excellence</span> award by <span style=' font-weight:bold ;'>Analytics India Magazine 2022</span></p></span>](https://rb.gy/znyv8q)", unsafe_allow_html = True)
+    # st.markdown(f"* [<span style='color: #15b090;'><p style='font-size: 18px; text-align: left'><span style=' font-weight:bold ;'>Lead Classification Engine </span>was Recognized with prestigious <span style='color: #15b090; font-weight:bold ;'>Data Science Excellence</span> award by <span style=' font-weight:bold ;'>Analytics India Magazine 2023</span></p></span>](https://rb.gy/znyv8q)", unsafe_allow_html = True)
     st.markdown("* <p style='font-size: 18px; text-align: left'><span style=' font-weight:bold ;'>Fine-Tuned Pre-Trained Transformer Models</span> and personalized them for domain-specific relevance, ensuring tailored suggestions, thereby improved customer engagement and facilitated rapid business insights.</p>", unsafe_allow_html = True)
     st.markdown("* <p style='font-size: 18px; text-align: left'> Applied advanced Transformer models and re-ranking techniques along with historical sentence click data and <span style=' font-weight:bold ;'>optimized the large corpus by 90%</span>, achieving enhanced model performance, quicker response times while retaining the same performance.</p>", unsafe_allow_html = True)
     st.markdown("* <p style='font-size: 18px; text-align: left'>  Converted the fine-tuned transformer model into the <span style=' font-weight:bold ;'>Edge Autosuggest model for iOS & Android platforms</span> using CoreML tools and the Hugging Face Optimum library, enabling <span style=' font-weight:bold ;'>on-device inference, improving privacy, model response, and usability even without an internet connection</span>.</p>", unsafe_allow_html = True)
@@ -218,7 +218,7 @@ with st.expander("For More Details about my work @TVS Motors"):
     st.markdown("* <p style='font-size: 17px'>Bucketization helps <span style=' font-weight:bold ;'>Sales Executives to prioritize the Follow-up</span>, which in turn results in an <span style=' font-weight:bold ;'>Increase in the Conversion (Retail) Rate and, thereby, Incremental Revenue</span></p>", unsafe_allow_html = True)
     st.markdown("* <p style='font-size: 17px'>Developed an <span style=' font-weight:bold ;'>End-to-End Machine Learning System</span> by leveraging <span style=' font-weight:bold ;'>Python, Pyspark,SQL, Azure Databricks, Azure Data Factory, MLOps, MLFlow, and Evidently</span>. <span style=' font-weight:bold ;'>MLFlow</span> - for tracking Model Experiments, Registering Models, Serving Models, and Storing Metadata, whereas <span style=' font-weight:bold ;'>Evidently</span> - for drift detection.</p>", unsafe_allow_html = True)
     st.markdown("* <p style='font-size: 17px'>Gratified to receive  <span style=' font-weight:bold ;'>Positive Feedback</span> from my <span style=' font-weight:bold ;'>Lead, Manager, Head of Data Science</span>, and even the  <span style=' font-weight:bold ;'>CEO</span>, who acknowledged the project's success in generating an  <span style=' font-weight:bold ;'>Incremental Revenue surpassing Expectations</span>, as a result of an <span style=' font-weight:bold;'>Increase in Follow-up rate by 70% and overall Retails by 8%</span>.</p>", unsafe_allow_html = True)
-    st.markdown("* <p style='font-size: 17px'>My work was <span style=' font-weight:bold ;'>Recognized with Prestigious <span style='color: #15b090; font-weight:bold ;'>Data Science Excellence Award</span> by Analytics India Magazine 2022</span> for <span style=' font-weight:bold ;'>Best use of AI/ML in Industry</span>.</p>", unsafe_allow_html = True)
+    st.markdown("* <p style='font-size: 17px'>My work was <span style=' font-weight:bold ;'>Recognized with Prestigious <span style='color: #15b090; font-weight:bold ;'>Data Science Excellence Award</span> by Analytics India Magazine 2023</span> for <span style=' font-weight:bold ;'>Best use of AI/ML in Industry</span>.</p>", unsafe_allow_html = True)
 
 st.markdown("""---""")
 st.markdown("")
@@ -246,7 +246,7 @@ with colx:
 
 with coly:
     st.markdown(f"* <p style='font-size: 18px; text-align: left'>Led development and deployment of <span style=' font-weight:bold ;'>Lead Classification Engine </span>project, by training robust binary classification models on Huge 2-Wheeler Enquiry Data.</p>", unsafe_allow_html = True)
-    st.markdown(f"* [<span style='color: #15b090;'><p style='font-size: 18px; text-align: left'><span style=' font-weight:bold ;'>Lead Classification Engine </span>was Recognized with prestigious <span style='color: #15b090; font-weight:bold ;'>Data Science Excellence</span> award by <span style=' font-weight:bold ;'>Analytics India Magazine 2022</span></p></span>](https://rb.gy/znyv8q)", unsafe_allow_html = True)
+    st.markdown(f"* [<span style='color: #15b090;'><p style='font-size: 18px; text-align: left'><span style=' font-weight:bold ;'>Lead Classification Engine </span>was Recognized with prestigious <span style='color: #15b090; font-weight:bold ;'>Data Science Excellence</span> award by <span style=' font-weight:bold ;'>Analytics India Magazine 2023</span></p></span>](https://rb.gy/znyv8q)", unsafe_allow_html = True)
     st.markdown("* <p style='font-size: 18px; text-align: left'>Analyzed and Classified potential customers into priority buckets based on likelihood to retail, resulting in an <span style=' font-weight:bold ;'>Increase of Follow-up rate by 70% and overall Retails by 8%</span>.</p>", unsafe_allow_html = True)
     st.markdown("* <p style='font-size: 18px; text-align: left'>Developed an end-to-end Machine Learning System by leveraging <span style=' font-weight:bold ;'>Python, Pyspark, SQL, Azure Databricks, Azure Data Factory, MLOps, MLFlow, and Evidently</span>. MLFlow is used for tracking model experiments, registering models, serving models, and storing metadata, whereas Evidently is used for drift detection.</p>", unsafe_allow_html = True)
 
@@ -286,7 +286,7 @@ data = {"Company": ["TVS Motors Company",
         "Job Title": ['Data Scientist', 'Intern',
                       'Research Intern in AIR Labs',
                       'Android Developer Intern'],
-        "Description": ["""My work was Recognized with prestigious "Data Science Excellence" award by Analytics India Magazine 2022 [https://rb.gy/znyv8q]. Led development and deployment of "Lead Classification Engine" project, through binary classification models to analyze 2-wheeler enquiry data. Analyzed and Classified potential customers into priority buckets based on likelihood to retail, resulting in an increase in Follow-up rate by 70% and overall Retails by 8%. Deployed an end-to-end ML system by leveraging Python, SQL, Pyspark, Azure Databricks, ADF, AutoML, MLFlow, Evidently for tracking model experiments, registering, serving, storing metadata and Drift Detection. Created 9 crores of Incremental Revenue per each model per quarter, a total of 7 models deployed to production
+        "Description": ["""My work was Recognized with prestigious "Data Science Excellence" award by Analytics India Magazine 2023 [https://rb.gy/znyv8q]. Led development and deployment of "Lead Classification Engine" project, through binary classification models to analyze 2-wheeler enquiry data. Analyzed and Classified potential customers into priority buckets based on likelihood to retail, resulting in an increase in Follow-up rate by 70% and overall Retails by 8%. Deployed an end-to-end ML system by leveraging Python, SQL, Pyspark, Azure Databricks, ADF, AutoML, MLFlow, Evidently for tracking model experiments, registering, serving, storing metadata and Drift Detection. Created 9 crores of Incremental Revenue per each model per quarter, a total of 7 models deployed to production
 """,  """- Developed an interactive command-line tool for conducting statistical analysis on numerical data using Scala and SMILE (Statistical Machine Intelligence and Learning Engine) package. 
 – Tool allows users to select specific features for analysis and perform a variety of operations, such as mean, median and standard deviation""", """– Synthetic Voice Emotion Generation – A data generator to generate voice of multiple emotions other than input voice, it is intended to completely reduce manual efforts in collecting data from individuals
 – The generator is trained on a CycleGAN model using voice data of different emotions and generates synthetic data  that can be consumed by computer vision researchers in model training. The model’s generated voices are ~75% in comparison to human voices
